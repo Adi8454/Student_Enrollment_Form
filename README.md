@@ -23,6 +23,7 @@ This project allows users to **save, update, reset, and fetch student records** 
 ✅ Mobile-friendly design  
 
 ---
+const connToken = "90935204|-31949243650444739|90958775";
 
 ## 📌 Problem Statement
 
@@ -49,6 +50,10 @@ Create a form-based Student Enrollment System where:
 - JsonPowerDB (JPDB)
 
 ---
+const dbName = "SCHOOL-DB";
+const relName = "STUDENT-TABLE";
+const baseUrl = "http://api.login2explore.com:5577";
+const apiEndPoint = "/api/iml";
 
 ## 🗄 Database Details
 
